@@ -10,6 +10,7 @@ nav {
     color: aliceblue;
     display: flex;
     align-items: center;
+    position: fixed;
 }
 nav h1 {
     font-size: 32px;
@@ -18,6 +19,10 @@ nav h1 {
 @media (max-width: 500px) {
     nav h1 { font-size: 24px;
     }
+}
+main {
+    display: flex;
+    flex-flow: column;
 }
 main img {
     width: 100%;
@@ -30,7 +35,7 @@ main img {
     height: 500px;
     position: absolute;
     z-index: -1;
-    background-color: rgba(32, 32, 32, 0.185);
+    background-color: rgba(32, 32, 32, 0.385);
 }
 main {
     color: azure;
@@ -42,7 +47,7 @@ main {
     width: 100%;
     display: flex;
     justify-content: space-around;
-    align-items: ;
+    align-items: center;
 }
 .container_one img {
     border-radius: 50%;
